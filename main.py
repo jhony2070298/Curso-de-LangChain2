@@ -38,6 +38,9 @@ Musk's political activities, views, and statements have made him a polarizing fi
     response = chain.invoke(input={"information": information})
     print(response.content)
 
+    print(os.getenv("OPENAI_API_KEY"))
+
+
 
 if __name__ == "__main__":
     main()
